@@ -53,13 +53,32 @@ import math
 
 # =========================== Flower =====================================
 
+# t = turtle.Turtle()
+# t.color("red", "yellow")
+# t.speed(10)
+#
+# t.begin_fill()
+# for i in range(100):
+#     t.forward(150)
+#     t.left(170)
+
 t = turtle.Turtle()
-t.color("red", "yellow")
-t.speed(10)
+t.color('blue')
+t.width(30)
 
 t.begin_fill()
-for i in range(100):
-    t.forward(150)
-    t.left(170)
+t.left(-90)
+t.forward(150)
+t.left(-180)
+t.forward(75)
+t.right(90)
+t.forward(100)
+t.left(90)
+t.forward(75)
+t.left(-180)
+t.forward(150)
+
+
+t.down()
 
 turtle.done()
