@@ -1,4 +1,5 @@
 import turtle
+import math
 
 # ===============================  Lines  ====================================
 
@@ -44,10 +45,21 @@ import turtle
 
 # =========================== Star =======================================
 
-t = turtle.Turtle()
+# t = turtle.Turtle()
+#
+# for i in range(10):
+#     t.forward(200)
+#     t.left(135)
 
-for i in range(10):
-    t.forward(200)
-    t.left(135)
+# =========================== Flower =====================================
+
+t = turtle.Turtle()
+t.color("red", "yellow")
+t.speed(10)
+
+t.begin_fill()
+for i in range(100):
+    t.forward(150)
+    t.left(170)
 
 turtle.done()
