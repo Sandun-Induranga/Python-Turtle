@@ -1,6 +1,6 @@
 import turtle
 
-# Lines
+# ===============================  Lines  ====================================
 
 # t = turtle.Turtle()
 #
@@ -12,34 +12,66 @@ import turtle
 #
 # turtle.done()
 
-# Squares
+# ===============================  Squares  ==================================
+
+# t = turtle.Turtle()
+#
+# t.color('blue', '#a2d2ff')
+#
+# t.begin_fill()
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.end_fill()
+#
+# t.penup()
+# t.forward(150)
+# t.pendown()
+#
+# t.begin_fill()
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.left(90)
+# t.forward(100)
+# t.end_fill()
+
+# =========================== Star =======================================
 
 t = turtle.Turtle()
 
-t.color('blue', '#a2d2ff')
-
-t.begin_fill()
-t.forward(100)
-t.left(90)
-t.forward(100)
-t.left(90)
-t.forward(100)
-t.left(90)
-t.forward(100)
-t.end_fill()
-
-t.penup()
-t.forward(150)
-t.pendown()
-
-t.begin_fill()
-t.forward(100)
-t.left(90)
-t.forward(100)
-t.left(90)
-t.forward(100)
-t.left(90)
-t.forward(100)
-t.end_fill()
+t.forward(200)
+t.left(135)
+t.forward(200)
+t.forward(200)
+t.left(135)
+t.forward(200)
+t.forward(200)
+t.left(135)
+t.forward(200)
+t.forward(200)
+t.left(135)
+t.forward(200)
+t.forward(200)
+t.left(135)
+t.forward(200)
+t.forward(200)
+t.left(135)
+t.forward(200)
+t.forward(200)
+t.left(135)
+t.forward(200)
+t.forward(200)
+t.left(135)
+t.forward(200)
+t.forward(200)
+t.left(135)
+t.forward(200)
 
 turtle.done()
