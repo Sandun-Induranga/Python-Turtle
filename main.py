@@ -1,6 +1,11 @@
 import turtle
 import math
 
+"""
+* @author : Sandun Induranga
+* @since : 0.1.0
+"""
+
 # ===============================  Lines  ====================================
 
 # t = turtle.Turtle()
